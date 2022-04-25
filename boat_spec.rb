@@ -5,8 +5,9 @@ describe Boat do
   
 # assert if return value is a different class like a hash
 
+
   it 'should create boats' do
-    expect(Boat.new).to be_a Hash
+    expect(Boat.new).to be_a Boat
   end
 
 end
